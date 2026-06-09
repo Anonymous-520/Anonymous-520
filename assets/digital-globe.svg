@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Digital Globe</title>
+  <desc id="desc">Animated globe highlighting India and New Delhi with future expansion routes.</desc>
+  <defs>
+    <radialGradient id="earth" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#1b1b1b"/>
+      <stop offset="0.72" stop-color="#050505"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff6c2"/>
+      <stop offset="0.55" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#584611"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="stars" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="1" fill="#ffffff" opacity="0.22"/>
+      <circle cx="54" cy="42" r="1.2" fill="#d4af37" opacity="0.35"/>
+      <circle cx="72" cy="10" r="0.8" fill="#ffffff" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="520" fill="#000"/>
+  <rect width="1200" height="520" fill="url(#stars)"/>
+  <text x="54" y="68" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">DIGITAL GLOBE</text>
+  <text x="54" y="96" fill="#d4af37" font-family="Consolas, monospace" font-size="14">ORIGIN: NEW DELHI, INDIA / ROUTES: RESEARCH, BUILDING, EXPANSION</text>
+
+  <g transform="translate(625 260)">
+    <circle r="172" fill="url(#earth)" stroke="#d4af37" stroke-opacity="0.35" stroke-width="2"/>
+    <circle r="132" fill="none" stroke="#ffffff" stroke-opacity="0.13"/>
+    <circle r="92" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+    <ellipse rx="172" ry="56" fill="none" stroke="#d4af37" stroke-opacity="0.25"/>
+    <ellipse rx="172" ry="108" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+    <ellipse rx="54" ry="172" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+    <ellipse rx="104" ry="172" fill="none" stroke="#d4af37" stroke-opacity="0.18"/>
+    <path d="M28 18c20-35 43-46 75-35 16 6 26 19 30 40-24 3-41 12-51 31-21-4-40-16-54-36z" fill="#d4af37" opacity="0.9" filter="url(#glow)"/>
+    <circle cx="67" cy="24" r="6" fill="#ffffff" filter="url(#glow)">
+      <animate attributeName="r" values="5;11;5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="86" y="31" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">NEW DELHI</text>
+    <g fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.78">
+      <path d="M67 24C-88-10-220-26-360-118">
+        <animate attributeName="stroke-dasharray" values="0 520;190 330;0 520" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M67 24C164 2 257-72 402-44">
+        <animate attributeName="stroke-dasharray" values="0 520;210 310;0 520" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M67 24C140 92 235 139 405 118">
+        <animate attributeName="stroke-dasharray" values="0 520;180 340;0 520" dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <g transform="translate(70 160)">
+    <rect width="290" height="210" rx="14" fill="#050505" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="24" y="38" fill="#d4af37" font-family="Consolas, monospace" font-size="13">NODE PROFILE</text>
+    <text x="24" y="78" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">New Delhi, India</text>
+    <text x="24" y="116" fill="#ffffff" opacity="0.7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Research headquarters signal</text>
+    <text x="24" y="146" fill="#ffffff" opacity="0.7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Future venture operating base</text>
+    <text x="24" y="176" fill="#ffffff" opacity="0.7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">AI and automation systems</text>
+  </g>
+</svg>

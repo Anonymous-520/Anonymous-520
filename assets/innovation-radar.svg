@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Innovation Radar</title>
+  <desc id="desc">Rotating radar tracking research, projects, development, innovation, expansion, and AI systems.</desc>
+  <defs>
+    <radialGradient id="sweep" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#d4af37" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" fill="#000"/>
+  <text x="54" y="64" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">INNOVATION RADAR</text>
+  <text x="54" y="94" fill="#d4af37" font-family="Consolas, monospace" font-size="14">TRACKING RESEARCH / PROJECTS / DEVELOPMENT / INNOVATION / EXPANSION / AI SYSTEMS</text>
+  <g transform="translate(600 292)">
+    <circle r="174" fill="#050505" stroke="#d4af37" stroke-opacity="0.35"/>
+    <circle r="132" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle r="88" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle r="44" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+    <path d="M0 0L174 0A174 174 0 0 1 123 123Z" fill="url(#sweep)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.5s" repeatCount="indefinite"/>
+    </path>
+    <line x1="-174" y1="0" x2="174" y2="0" stroke="#ffffff" stroke-opacity="0.1"/>
+    <line x1="0" y1="-174" x2="0" y2="174" stroke="#ffffff" stroke-opacity="0.1"/>
+    <g fill="#d4af37" filter="url(#glow)">
+      <circle cx="-82" cy="-64" r="5"/>
+      <circle cx="112" cy="-38" r="5"/>
+      <circle cx="42" cy="94" r="5"/>
+      <circle cx="-124" cy="72" r="5"/>
+      <circle cx="8" cy="-132" r="5"/>
+    </g>
+  </g>
+  <g fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    <text x="156" y="202">Research</text>
+    <text x="214" y="356">Projects</text>
+    <text x="914" y="212">Development</text>
+    <text x="918" y="386">Expansion</text>
+    <text x="512" y="488">AI Systems</text>
+  </g>
+</svg>

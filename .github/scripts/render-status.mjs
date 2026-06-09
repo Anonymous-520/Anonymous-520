@@ -1,0 +1,44 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const outputPath = process.argv[2] || "assets/system-status.svg";
+const login = process.env.PROFILE_LOGIN || process.env.GITHUB_REPOSITORY_OWNER || "Anonymous-520";
+const sha = process.env.GITHUB_SHA ? process.env.GITHUB_SHA.slice(0, 7) : "local";
+const generatedAt = new Date().toISOString();
+
+const escapeXml = (value) =>
+  String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="title desc">
+  <title id="title">Sillionona OS system status</title>
+  <desc id="desc">System status panel for the Sillionona OS profile.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff4bb"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#6c5718"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="120" rx="12" fill="#000000"/>
+  <rect x="2" y="2" width="1196" height="116" rx="12" fill="#050505" stroke="#d4af37" stroke-opacity="0.45"/>
+  <circle cx="48" cy="60" r="10" fill="#d4af37">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="52" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">SILLIONONA OS ONLINE</text>
+  <text x="78" y="78" fill="#d4af37" font-family="Consolas, monospace" font-size="14">PROFILE: ${escapeXml(login)} / BUILD: ${escapeXml(generatedAt)} / SHA: ${escapeXml(sha)} / MODE: RESEARCH COMMAND CENTER</text>
+  <g transform="translate(872 32)">
+    <rect width="270" height="56" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="18" y="24" fill="#ffffff" opacity="0.65" font-family="Consolas, monospace" font-size="12">SIGNAL INTEGRITY</text>
+    <rect x="18" y="34" width="220" height="8" rx="4" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="18" y="34" width="170" height="8" rx="4" fill="url(#gold)">
+      <animate attributeName="width" values="136;220;170" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>`;
+
+fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+fs.writeFileSync(outputPath, svg);

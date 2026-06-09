@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Neural Network Core</title>
+  <desc id="desc">Animated AI research network representing QNLLM, learning systems, knowledge graphs, and research modules.</desc>
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#d4af37" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="520" fill="#000"/>
+  <rect width="1200" height="520" fill="url(#grid)"/>
+  <text x="54" y="65" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">NEURAL NETWORK CORE</text>
+  <text x="54" y="94" fill="#d4af37" font-family="Consolas, monospace" font-size="14">QNLLM / LEARNING SYSTEMS / RESEARCH / KNOWLEDGE NETWORKS</text>
+  <circle cx="600" cy="276" r="136" fill="url(#core)">
+    <animate attributeName="r" values="120;148;120" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g stroke="#d4af37" stroke-opacity="0.4" stroke-width="1.5" fill="none">
+    <path d="M600 276L398 170L314 320L500 410L746 400L884 294L810 132Z"/>
+    <path d="M398 170L500 410M314 320L746 400M810 132L500 410M884 294L398 170"/>
+    <path d="M600 276L314 320M600 276L500 410M600 276L746 400M600 276L884 294M600 276L810 132M600 276L398 170">
+      <animate attributeName="stroke-dasharray" values="0 900;180 720;0 900" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#d4af37" filter="url(#glow)">
+    <circle cx="600" cy="276" r="12"/>
+    <circle cx="398" cy="170" r="8"/>
+    <circle cx="314" cy="320" r="8"/>
+    <circle cx="500" cy="410" r="8"/>
+    <circle cx="746" cy="400" r="8"/>
+    <circle cx="884" cy="294" r="8"/>
+    <circle cx="810" cy="132" r="8"/>
+  </g>
+  <g fill="#ffffff" opacity="0.86" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+    <text x="548" y="270">QNLLM</text>
+    <text x="344" y="154">Memory</text>
+    <text x="246" y="326">Gating</text>
+    <text x="442" y="445">Learning</text>
+    <text x="700" y="438">Agents</text>
+    <text x="902" y="301">Research</text>
+    <text x="828" y="129">Knowledge</text>
+  </g>
+
+  <g transform="translate(52 160)">
+    <rect width="255" height="220" rx="14" fill="#050505" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="22" y="38" fill="#d4af37" font-family="Consolas, monospace" font-size="13">CORE PROTOCOLS</text>
+    <text x="22" y="76" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Artificial Intelligence</text>
+    <text x="22" y="108" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Continual Learning</text>
+    <text x="22" y="140" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Auditability</text>
+    <text x="22" y="172" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Human-AI Systems</text>
+  </g>
+</svg>

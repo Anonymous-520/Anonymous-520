@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Sillionona Ecosystem Map</title>
+  <desc id="desc">Premium ecosystem hierarchy from Sillionona to HackLabify, AI Research, Finance Systems, Innovation Labs, Future Ventures, Intelligent Agents, Automation Systems, and Knowledge Infrastructure.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff5bf"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#6e5b20"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="560" fill="#000"/>
+  <rect width="1200" height="560" fill="url(#grid)"/>
+  <text x="54" y="64" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">SILLIONONA ECOSYSTEM</text>
+  <text x="54" y="94" fill="#d4af37" font-family="Consolas, monospace" font-size="14">VENTURE OPERATING SYSTEM / RESEARCH / PRODUCTS / KNOWLEDGE INFRASTRUCTURE</text>
+  <g transform="translate(600 142)">
+    <rect x="-160" y="0" width="320" height="72" rx="14" fill="url(#gold)" filter="url(#glow)"/>
+    <text x="-78" y="45" fill="#000" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">SILLIONONA</text>
+  </g>
+  <g stroke="#d4af37" stroke-opacity="0.45" stroke-width="2" fill="none">
+    <path d="M600 214V278"/>
+    <path d="M190 278H1010"/>
+    <path d="M190 278V338M307 278V338M424 278V338M541 278V338M658 278V338M775 278V338M892 278V338M1010 278V338">
+      <animate attributeName="stroke-dasharray" values="0 900;260 640;0 900" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle">
+    <g transform="translate(190 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="39" fill="#fff">HackLabify</text></g>
+    <g transform="translate(307 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">AI</text><text x="0" y="50" fill="#fff">Research</text></g>
+    <g transform="translate(424 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">Finance</text><text x="0" y="50" fill="#fff">Systems</text></g>
+    <g transform="translate(541 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">Innovation</text><text x="0" y="50" fill="#fff">Labs</text></g>
+    <g transform="translate(658 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">Future</text><text x="0" y="50" fill="#fff">Ventures</text></g>
+    <g transform="translate(775 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">Intelligent</text><text x="0" y="50" fill="#fff">Agents</text></g>
+    <g transform="translate(892 338)"><rect x="-70" y="0" width="140" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">Automation</text><text x="0" y="50" fill="#fff">Systems</text></g>
+    <g transform="translate(1010 338)"><rect x="-86" y="0" width="172" height="68" rx="10" fill="#060606" stroke="#ffffff" stroke-opacity="0.15"/><text x="0" y="31" fill="#fff">Knowledge</text><text x="0" y="50" fill="#fff">Infrastructure</text></g>
+  </g>
+</svg>

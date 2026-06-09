@@ -1,0 +1,42 @@
+name: Render GitHub Metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch GitHub profile data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: node .github/scripts/fetch-github-data.mjs github-data.json
+
+      - name: Render metrics asset
+        run: node .github/scripts/render-metrics.mjs github-data.json assets/github-metrics.svg
+
+      - name: Commit metrics asset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-metrics.svg
+          if git diff --cached --quiet; then
+            echo "No metrics changes to commit."
+          else
+            git commit -m "chore: refresh github metrics"
+            git push
+          fi

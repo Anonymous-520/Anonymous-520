@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sillionona Timeline</title>
+  <desc id="desc">Roadmap timeline from 2026 to 2050 across foundation, AI systems, research platforms, technology expansion, innovation ecosystem, and intelligence infrastructure.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff3b2"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#5e4d18"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" fill="#000"/>
+  <text x="54" y="64" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">TIMELINE</text>
+  <text x="54" y="94" fill="#d4af37" font-family="Consolas, monospace" font-size="14">2026-2050 / FOUNDATION TO ADVANCED INTELLIGENCE INFRASTRUCTURE</text>
+  <line x1="120" y1="272" x2="1080" y2="272" stroke="url(#gold)" stroke-width="5" filter="url(#glow)"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(150 180)">
+      <circle cx="0" cy="92" r="15" fill="#d4af37" filter="url(#glow)"/>
+      <text x="-44" y="0" fill="#d4af37" font-size="21" font-weight="900">2026-2030</text>
+      <text x="-44" y="34" fill="#ffffff" font-size="15">Foundation</text>
+      <text x="-44" y="58" fill="#ffffff" opacity="0.7" font-size="14">AI systems / Research platforms</text>
+    </g>
+    <g transform="translate(420 300)">
+      <circle cx="0" cy="-28" r="15" fill="#d4af37" filter="url(#glow)"/>
+      <text x="-44" y="42" fill="#d4af37" font-size="21" font-weight="900">2030-2035</text>
+      <text x="-44" y="76" fill="#ffffff" font-size="15">Technology expansion</text>
+      <text x="-44" y="100" fill="#ffffff" opacity="0.7" font-size="14">Global community / Products</text>
+    </g>
+    <g transform="translate(700 180)">
+      <circle cx="0" cy="92" r="15" fill="#d4af37" filter="url(#glow)"/>
+      <text x="-44" y="0" fill="#d4af37" font-size="21" font-weight="900">2035-2045</text>
+      <text x="-44" y="34" fill="#ffffff" font-size="15">Innovation ecosystem</text>
+      <text x="-44" y="58" fill="#ffffff" opacity="0.7" font-size="14">Cross-industry systems</text>
+    </g>
+    <g transform="translate(980 300)">
+      <circle cx="0" cy="-28" r="15" fill="#d4af37" filter="url(#glow)"/>
+      <text x="-72" y="42" fill="#d4af37" font-size="21" font-weight="900">2045-2050</text>
+      <text x="-72" y="76" fill="#ffffff" font-size="15">Advanced intelligence</text>
+      <text x="-72" y="100" fill="#ffffff" opacity="0.7" font-size="14">Infrastructure systems</text>
+    </g>
+  </g>
+</svg>
