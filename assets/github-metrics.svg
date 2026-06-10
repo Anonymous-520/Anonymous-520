@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
   <title id="title">Anonymous-520 GitHub Metrics</title>
-  <desc id="desc">Seeded public GitHub metrics for Anonymous-520 from the GitHub REST API on 2026-06-09.</desc>
+  <desc id="desc">Public GitHub metrics generated from GitHub GraphQL.</desc>
   <defs>
     <linearGradient id="gold" x1="0" x2="1">
       <stop offset="0" stop-color="#fff4bb"/>
@@ -18,53 +18,61 @@
   <rect width="1200" height="520" fill="#000"/>
   <rect width="1200" height="520" fill="url(#grid)"/>
   <text x="54" y="62" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">GITHUB ANALYTICS</text>
-  <text x="54" y="91" fill="#d4af37" font-family="Consolas, monospace" font-size="14">PUBLIC DATA SEED / ANONYMOUS-520 / REFRESHED BY GITHUB ACTIONS</text>
+  <text x="54" y="91" fill="#d4af37" font-family="Consolas, monospace" font-size="14">PUBLIC DATA / Anonymous-520 / GENERATED 2026-06-10T03:28:57.738Z</text>
 
   <g transform="translate(54 132)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <g>
-      <rect width="170" height="112" rx="10" fill="#050505" stroke="#d4af37" stroke-opacity="0.45"/>
+    
+    <g transform="translate(0 0)">
+      <rect width="170" height="112" rx="10" fill="#050505" stroke="#d4af37" stroke-opacity="0.32"/>
       <text x="20" y="36" fill="#ffffff" opacity="0.65" font-size="13">PUBLIC REPOS</text>
-      <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">2</text>
+      <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">3</text>
     </g>
+    
     <g transform="translate(196 0)">
-      <rect width="170" height="112" rx="10" fill="#050505" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect width="170" height="112" rx="10" fill="#050505" stroke="#d4af37" stroke-opacity="0.32"/>
       <text x="20" y="36" fill="#ffffff" opacity="0.65" font-size="13">PUBLIC STARS</text>
       <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">1</text>
     </g>
+    
     <g transform="translate(392 0)">
-      <rect width="170" height="112" rx="10" fill="#050505" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect width="170" height="112" rx="10" fill="#050505" stroke="#d4af37" stroke-opacity="0.32"/>
       <text x="20" y="36" fill="#ffffff" opacity="0.65" font-size="13">PUBLIC FORKS</text>
       <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">0</text>
     </g>
+    
     <g transform="translate(588 0)">
-      <rect width="170" height="112" rx="10" fill="#050505" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect width="170" height="112" rx="10" fill="#050505" stroke="#d4af37" stroke-opacity="0.32"/>
       <text x="20" y="36" fill="#ffffff" opacity="0.65" font-size="13">FOLLOWERS</text>
       <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">0</text>
     </g>
+    
     <g transform="translate(784 0)">
-      <rect width="170" height="112" rx="10" fill="#050505" stroke="#ffffff" stroke-opacity="0.14"/>
-      <text x="20" y="36" fill="#ffffff" opacity="0.65" font-size="13">FOLLOWING</text>
-      <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">2</text>
+      <rect width="170" height="112" rx="10" fill="#050505" stroke="#d4af37" stroke-opacity="0.32"/>
+      <text x="20" y="36" fill="#ffffff" opacity="0.65" font-size="13">CONTRIBUTIONS</text>
+      <text x="20" y="84" fill="#d4af37" font-size="44" font-weight="900">250</text>
     </g>
   </g>
 
   <g transform="translate(54 290)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect width="510" height="154" rx="12" fill="#050505" stroke="#ffffff" stroke-opacity="0.14"/>
     <text x="24" y="36" fill="#ffffff" font-size="17" font-weight="900">PUBLIC REPOSITORY SURFACE</text>
-    <text x="24" y="76" fill="#d4af37" font-size="15" font-weight="800">Quantum-Neurological-Large-Language-Model-QNLLM-Public</text>
-    <text x="24" y="104" fill="#ffffff" opacity="0.72" font-size="14">1 public star / research repository</text>
-    <text x="24" y="132" fill="#d4af37" font-size="15" font-weight="800">EduS-X-1</text>
+    
+    <text x="24" y="76" fill="#d4af37" font-size="14" font-weight="800">Anonymous-520</text>
+    <text x="24" y="94" fill="#ffffff" opacity="0.65" font-size="12">No primary language / 0 stars / 0 forks</text>
+    <text x="24" y="104" fill="#d4af37" font-size="14" font-weight="800">EduS-X-1</text>
+    <text x="24" y="122" fill="#ffffff" opacity="0.65" font-size="12">Python / 0 stars / 0 forks</text>
+    <text x="24" y="132" fill="#d4af37" font-size="14" font-weight="800">Quantum-Neurological-Large-Language-Model-QNLLM-Public</text>
+    <text x="24" y="150" fill="#ffffff" opacity="0.65" font-size="12">No primary language / 1 stars / 0 forks</text>
   </g>
 
   <g transform="translate(612 290)" font-family="Inter, Segoe UI, Arial, sans-serif">
     <rect width="534" height="154" rx="12" fill="#050505" stroke="#d4af37" stroke-opacity="0.38"/>
-    <text x="24" y="36" fill="#ffffff" font-size="17" font-weight="900">LANGUAGE SIGNAL FROM PUBLIC REPOS</text>
-    <g transform="translate(24 62)" font-size="13">
-      <text x="0" y="10" fill="#ffffff">Python</text><rect x="110" y="0" width="300" height="13" rx="6" fill="url(#gold)" filter="url(#glow)"/>
-      <text x="0" y="36" fill="#ffffff">JavaScript</text><rect x="110" y="26" width="168" height="13" rx="6" fill="#ffffff" opacity="0.76"/>
-      <text x="0" y="62" fill="#ffffff">CSS</text><rect x="110" y="52" width="14" height="13" rx="6" fill="#d4af37" opacity="0.7"/>
-      <text x="0" y="88" fill="#ffffff">Dockerfile / HTML</text><rect x="110" y="78" width="12" height="13" rx="6" fill="#ffffff" opacity="0.45"/>
+    <text x="24" y="36" fill="#ffffff" font-size="17" font-weight="900">PRIMARY LANGUAGE SIGNAL</text>
+    <g transform="translate(24 62)">
+      
+      <text x="0" y="11" fill="#ffffff" font-size="13">Python</text>
+      <rect x="118" y="0" width="285" height="13" rx="6" fill="#3572A5" opacity="0.9"/>
     </g>
   </g>
-  <text x="54" y="486" fill="#ffffff" opacity="0.55" font-family="Consolas, monospace" font-size="13">Seeded from public GitHub REST API on 2026-06-09. The metrics workflow refreshes this SVG from GitHub GraphQL.</text>
+  <text x="54" y="486" fill="#ffffff" opacity="0.55" font-family="Consolas, monospace" font-size="13">Source: GitHub GraphQL API. Private repositories and private contributions are not displayed.</text>
 </svg>
